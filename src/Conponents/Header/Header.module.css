@@ -1,0 +1,51 @@
+
+.header{
+    grid-area: h;
+    background: rgb(37, 37, 37);
+    border-radius: 0.5em;
+    font-family: 'Gemunu Libre', sans-serif;
+  }
+  .header img{
+    max-height: 5em;
+  }
+.ava{
+  border-radius: 50%;
+  height: 4em;
+  margin-top: 0.5em;
+}
+.text{
+  font-size: 1.3em;
+  margin: 0 0.7em ;
+  margin-top: 0.7em;
+}
+.login{
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  
+}
+.button{
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgb(167, 167, 167);
+}
+.button:hover{
+  cursor: pointer;
+  text-decoration: underline ;
+}
+
+.log a:hover{
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  color: rgb(60, 0, 156);
+  text-decoration: underline;
+}
+.log a{
+  margin-top: 0.5em;
+  margin-right: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+.log{
+  margin-top: 0.5em;
+  color: white;
+}

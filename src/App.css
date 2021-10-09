@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
+*{margin: 0;padding: 0;}
+body{
+  background: rgb(26, 26, 26);
+  color:white;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+h3{
+  display: inline;
+}
+.app-wraper{
+  display: grid; 
+  width: 80%;
+  
+  margin: 0 auto;
+  grid-template: 
+  'h h'
+  'n c';
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: 5em 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.fSpaceBetween{
+  justify-content: space-between;
+}
+.b{
+  border:1px solid red;
+}
+.flex{
+  display: flex;
+}
+.flex1{
+  flex:1;
+}
+.flex2{
+  flex: 2;
+}
+.p1{
+  padding: 1em;
+}
+.block{
+  display: block;
+}
+.content{
+  background: rgb(37, 37, 37);
+  border-radius: 0.5em;
+  height: 38em;
+}
+.but {
+  width: 130px;
+  height: 30px;
+  text-decoration: none;
+  color: #a675b3;
+  text-align: center;
+  font: normal 17px arial;
+}
+
+.but:not(.active) {
+  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+  background-image: linear-gradient(#3b2751, #271739);
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+}
+
+.but:not(.active):hover,
+.but:not(.active):focus {
+  cursor: pointer;
+  transition: color 200ms linear, text-shadow 500ms linear;
+  color: #fff;
+  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+}
+.but:not(:hover) {
+    transition: 0.6s;
+}
+
+.but2{
+  background:linear-gradient(to bottom, #FFFFFF, #E6E6E6) #F5F5F5 repeat-x;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #333333;
+      text-decoration:none;
+  display:block;
+  font-size: 14px;
+      width:120px;
+  line-height: 20px;
+  margin: 0.4em 0;
+  padding: 4px 12px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+position: relative;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: -webkit-transform;
+transition-property: transform;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-transform: translateZ(0);
+-ms-transform: translateZ(0);
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.but2:before {
+pointer-events: none;
+position: absolute;
+z-index: -1;
+content: '';
+top: 100%;
+left: 5%;
+height: 10px;
+width: 90%;
+opacity: 0;
+background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: -webkit-transform, opacity;
+transition-property: transform, opacity;
+}
+
+.but2:hover {
+  cursor: pointer;
+-webkit-transform: translateY(-5px);
+-ms-transform: translateY(-5px);
+transform: translateY(-5px);
+}
+.but2:hover:before {
+opacity: 1;
+-webkit-transform: translateY(5px);
+-ms-transform: translateY(5px);
+transform: translateY(5px);
+}
+
+
+
+

@@ -1,0 +1,75 @@
+
+.textSms{
+    width: 100%;
+}
+
+.addSms{
+  width: 20%;
+  cursor: pointer;
+  background:rgb(89, 0, 255);
+  border:none;
+  box-shadow: rgb(119, 119, 119) 0.1em 0.1em 0.2em 0em;
+  border-radius: 0.3em;
+  color: white;
+  padding: 0.05em;
+  margin-top: 0.4em;
+  font-size: 1.4em;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+.messages{
+    background: rgb(53, 53, 53);
+    border-end-end-radius: 0.5em;
+    display: grid;
+    height: 100%;
+    grid-template: 
+    'message'
+    'mes';
+    grid-template-rows: 11fr 2em;
+    
+}
+.messagesBlock{
+    padding-left: 1em;
+    padding-top: 1em;
+    grid-area: message;
+}
+input[type="text"]{
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-bottom: 0.17em;
+    box-shadow: rgb(119, 119, 119) 0.1em 0.1em 0.2em 0em;
+    padding-left: 0.3em;
+    outline: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding: 0.3em;
+    width: 70%;
+  }
+.mes{
+    grid-area: mes;
+    padding-left: 1em;
+    width: 90%;
+    margin-top: -1em;
+}
+.button{
+    background: rgba(0, 0, 0, 0);
+    border:none;
+    margin-left: 1em ;
+    color: rgb(167, 167, 167);
+  }
+.button:hover{
+    cursor: pointer;
+    text-decoration: underline ;
+    
+}
+.textSms .spanErorr{
+    display: none;
+}
+.textSms span{
+    display: none;
+}
+
+
+
+

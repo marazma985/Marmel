@@ -1,0 +1,16 @@
+.frendList{
+    height: 33.8em;
+    overflow-y: scroll;
+    
+}
+.frendList::-webkit-scrollbar {
+    width:0.7em;              
+  }
+.frendList::-webkit-scrollbar-track {
+    background: rgb(29, 29, 29);       
+  }
+.frendList::-webkit-scrollbar-thumb {
+    background-color: rgb(78, 78, 78);   
+    border-radius: 20px;  
+    border: 3px solid rgb(29, 29, 29);     
+  }

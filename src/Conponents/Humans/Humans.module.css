@@ -1,0 +1,71 @@
+.ava{
+    height: 9em;
+    border-radius: 50%;
+    width: 9em;
+    object-fit: cover;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    'do'
+    'list';
+    grid-template-rows: 0.5fr 11fr;
+}
+.do{
+    margin-top: 1em;
+    width: 100%;
+    justify-content: space-around;
+    grid-area: do;
+}
+
+.list{
+    margin-top: 1em;
+    grid-area: list;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.userBlock{
+    background: rgb(29, 29, 29);
+    width: 47%;
+    margin: 0.3em 0;
+    padding: 0.3em;
+    border-radius: 1em;
+    border: 0.1em solid gray;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    cursor:inherit;
+}
+.userBlock .a{
+    font-size: 2em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.text{
+    margin-left: 1em;
+    overflow: hidden;
+    text-decoration: none;
+    width: 60%;
+}
+.status{
+    margin-top: 0.7em;
+    font-size: 1.5em;
+}
+.for input[type="text"]{
+    border-radius: 0.5em;
+    font-size: 1em;
+    margin-bottom: 0.17em;
+    box-shadow: rgb(119, 119, 119) 0.1em 0.1em 0.2em 0em;
+    padding-left: 0.3em;
+    outline: none;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding: 0.3em;
+    width: 50%;
+  }

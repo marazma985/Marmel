@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Conponents/Humans/Humans.module.css"],"names":[],"mappings":"AAAA,mBACI,UAAW,CACX,iBAAkB,CAClB,SAAU,CACV,gBACJ","file":"4.9b604362.chunk.css","sourcesContent":[".ava{\r\n    height: 6em;\r\n    border-radius: 50%;\r\n    width: 6em;\r\n    object-fit: cover;\r\n}\r\n"]}

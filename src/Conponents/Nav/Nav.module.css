@@ -1,0 +1,23 @@
+.nav{
+    grid-area: n;
+    background: rgb(37, 37, 37);
+    padding-top: 1em;
+    border-radius: 0.5em;
+  }
+.nav a{
+  font-size: 1.5em;
+  display: block;
+  margin-top: 0.1em;
+  text-decoration: none;
+  color: white;
+  margin-left: 1em;
+}
+.nav a:hover{
+  cursor: pointer;
+  text-decoration: underline ;
+}
+.nav .active{
+  transition: 0.5s;
+  color:rgb(89, 0, 255);
+  text-decoration: underline ;
+}
