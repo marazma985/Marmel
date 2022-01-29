@@ -5,13 +5,13 @@
     "main.css": "/Marmel/static/css/main.faa756b0.chunk.css",
     "main.js": "/Marmel/static/js/main.815ebc91.chunk.js",
     "main.js.map": "/Marmel/static/js/main.815ebc91.chunk.js.map",
-    "runtime-main.js": "/Marmel/static/js/runtime-main.9c957058.js",
-    "runtime-main.js.map": "/Marmel/static/js/runtime-main.9c957058.js.map",
+    "runtime-main.js": "/Marmel/static/js/runtime-main.c53d2a90.js",
+    "runtime-main.js.map": "/Marmel/static/js/runtime-main.c53d2a90.js.map",
     "static/js/3.bf5c9303.chunk.js": "/Marmel/static/js/3.bf5c9303.chunk.js",
     "static/js/3.bf5c9303.chunk.js.map": "/Marmel/static/js/3.bf5c9303.chunk.js.map",
     "static/css/4.21dedc84.chunk.css": "/Marmel/static/css/4.21dedc84.chunk.css",
-    "static/js/4.6457b3c9.chunk.js": "/Marmel/static/js/4.6457b3c9.chunk.js",
-    "static/js/4.6457b3c9.chunk.js.map": "/Marmel/static/js/4.6457b3c9.chunk.js.map",
+    "static/js/4.5c6fb1c2.chunk.js": "/Marmel/static/js/4.5c6fb1c2.chunk.js",
+    "static/js/4.5c6fb1c2.chunk.js.map": "/Marmel/static/js/4.5c6fb1c2.chunk.js.map",
     "static/css/5.0ffa881d.chunk.css": "/Marmel/static/css/5.0ffa881d.chunk.css",
     "static/js/5.501743a3.chunk.js": "/Marmel/static/js/5.501743a3.chunk.js",
     "static/js/5.501743a3.chunk.js.map": "/Marmel/static/js/5.501743a3.chunk.js.map",
@@ -38,7 +38,7 @@
     "static/media/photoop1.04c7e54b.png": "/Marmel/static/media/photoop1.04c7e54b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9c957058.js",
+    "static/js/runtime-main.c53d2a90.js",
     "static/js/3.bf5c9303.chunk.js",
     "static/css/main.faa756b0.chunk.css",
     "static/js/main.815ebc91.chunk.js"
