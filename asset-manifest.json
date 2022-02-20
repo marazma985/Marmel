@@ -2,9 +2,9 @@
   "files": {
     "static/js/0.0e0529bf.chunk.js": "/Marmel/static/js/0.0e0529bf.chunk.js",
     "static/js/0.0e0529bf.chunk.js.map": "/Marmel/static/js/0.0e0529bf.chunk.js.map",
-    "main.css": "/Marmel/static/css/main.6116e58d.chunk.css",
-    "main.js": "/Marmel/static/js/main.4a477e65.chunk.js",
-    "main.js.map": "/Marmel/static/js/main.4a477e65.chunk.js.map",
+    "main.css": "/Marmel/static/css/main.034e9eec.chunk.css",
+    "main.js": "/Marmel/static/js/main.39e9789f.chunk.js",
+    "main.js.map": "/Marmel/static/js/main.39e9789f.chunk.js.map",
     "runtime-main.js": "/Marmel/static/js/runtime-main.fd3d9713.js",
     "runtime-main.js.map": "/Marmel/static/js/runtime-main.fd3d9713.js.map",
     "static/js/3.bf5c9303.chunk.js": "/Marmel/static/js/3.bf5c9303.chunk.js",
@@ -32,7 +32,7 @@
     "static/css/6.709bc469.chunk.css.map": "/Marmel/static/css/6.709bc469.chunk.css.map",
     "static/css/7.2aa125ba.chunk.css.map": "/Marmel/static/css/7.2aa125ba.chunk.css.map",
     "static/css/8.afd7172b.chunk.css.map": "/Marmel/static/css/8.afd7172b.chunk.css.map",
-    "static/css/main.6116e58d.chunk.css.map": "/Marmel/static/css/main.6116e58d.chunk.css.map",
+    "static/css/main.034e9eec.chunk.css.map": "/Marmel/static/css/main.034e9eec.chunk.css.map",
     "static/js/3.bf5c9303.chunk.js.LICENSE.txt": "/Marmel/static/js/3.bf5c9303.chunk.js.LICENSE.txt",
     "static/media/logo.793fc9e6.png": "/Marmel/static/media/logo.793fc9e6.png",
     "static/media/photoop1.04c7e54b.png": "/Marmel/static/media/photoop1.04c7e54b.png"
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.fd3d9713.js",
     "static/js/3.bf5c9303.chunk.js",
-    "static/css/main.6116e58d.chunk.css",
-    "static/js/main.4a477e65.chunk.js"
+    "static/css/main.034e9eec.chunk.css",
+    "static/js/main.39e9789f.chunk.js"
   ]
 }
